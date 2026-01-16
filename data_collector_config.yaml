@@ -1,0 +1,10 @@
+ 
+agent:
+  id: market_data_collector
+  name: Market Data Collector
+  description: Fetches and broadcasts stock market data
+  
+connection:
+  network_host: localhost
+  network_port: 8700
+  transport: http
